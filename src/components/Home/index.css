@@ -1,0 +1,61 @@
+/* {BgCont, Cont, Heading,UlCont,FailureCont,FailureImg,Heading2,  Button,} */
+
+.BgCont {
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.Cont {
+  width: 90%;
+  align-self: center;
+}
+.Heading {
+  color: '#1e293b';
+  font-size: '30px';
+}
+.Para1 {
+  color: '#475569';
+  font-size: '17px';
+  line-height: 2;
+}
+
+.UlCont {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.FailureCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  height: 80vh;
+}
+.FailureImg {
+  width: 60%;
+}
+.Heading2 {
+  color: #4656a1;
+  font-size: '30px';
+  text-align: center;
+}
+.Para2 {
+  color: #4656a1;
+  font-size: '16px';
+  text-align: center;
+}
+.Button {
+  border: 0px;
+  outline: none;
+  background-color: #4656a1;
+  color: #ffffff;
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+  cursor: pointer;
+}

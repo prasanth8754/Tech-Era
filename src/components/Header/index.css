@@ -1,0 +1,12 @@
+/* NavCont, WebsiteLogo */
+
+.NavCont {
+  background-color: #f1f5f9;
+  width: 100%;
+  padding: 15px;
+  padding-left: 40px;
+  margin-bottom: 30px;
+}
+.WebsiteLogo {
+  width: 130px;
+}

@@ -1,0 +1,15 @@
+/* {ListCont, CourseImg, CourseName} */
+
+.ListCont {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.CourseImg {
+  width: 50px;
+}
+.CourseName {
+  color: #1e293b;
+  font-size: 15px;
+  font-weight: bold;
+}
